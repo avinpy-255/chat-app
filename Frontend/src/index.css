@@ -2,23 +2,24 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: 'Roboto','Myriad Set Pro', 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
 }
 
 body {
-  background-image: url("./assets/bg.jpg");
+  background-color: rgb(243, 243, 241);
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
-  color: beige;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  font-size: 25px;
 }
 
 .container {
   width: 100vw;
   height: 100vh;
-  background-color: rgba(27, 75, 72, 0.692);
+  background-color: rgba(228, 235, 234, 0.692);
   backdrop-filter: blur(15px) saturate(100%) ;
- 
+  display: flex;
 }
