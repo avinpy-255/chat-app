@@ -15,10 +15,33 @@ const ChatList = () => {
        onClick={() => setAddNode((perv) => !perv)}
      />
     </div>
+       <div className='item'>
        <img src='./avatar.png' alt=""/>
        <div className='texts'>
            <span>sexy</span>
            <p>Hello</p>
+       </div>
+       </div>
+       <div className='item'>
+       <img src='./avatar.png' alt=""/>
+       <div className='texts'>
+           <span>sexy</span>
+           <p>Hello</p>
+       </div>
+       </div>
+       <div className='item'>
+       <img src='./avatar.png' alt=""/>
+       <div className='texts'>
+           <span>sexy</span>
+           <p>Hello</p>
+       </div>
+       </div>
+       <div className='item'>
+       <img src='./avatar.png' alt=""/>
+       <div className='texts'>
+           <span>sexy</span>
+           <p>Hello</p>
+       </div>
        </div>
     </div>
   )
